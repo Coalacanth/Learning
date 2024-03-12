@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dj3fxc27q17jp"]
+
+[ext_resource type="PackedScene" uid="uid://g0mdbknvamru" path="res://Characters/Allys/Barbarian.tscn" id="1_gkajf"]
+
+[node name="Player" type="Node3D"]
+
+[node name="Barbarian" parent="." instance=ExtResource("1_gkajf")]

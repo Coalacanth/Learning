@@ -1,0 +1,40 @@
+[gd_scene load_steps=10 format=3 uid="uid://djulybndraxo8"]
+
+[ext_resource type="PackedScene" uid="uid://cdvu2j10tqdrl" path="res://Room/Floor/floor_tile_small_broken_a_gltf.tscn" id="1_rovf2"]
+[ext_resource type="PackedScene" uid="uid://d0yjrvxhv8w4j" path="res://Room/Floor/floor_tile_small_broken_b_gltf.tscn" id="2_bnid3"]
+[ext_resource type="PackedScene" uid="uid://dpayd5wm66ken" path="res://Room/Floor/floor_tile_small_corner_gltf.tscn" id="3_d17yw"]
+[ext_resource type="PackedScene" uid="uid://pr4nhhfsikhp" path="res://Room/Floor/floor_tile_small_decorated_gltf.tscn" id="4_clwp6"]
+[ext_resource type="PackedScene" uid="uid://dy3y4xhpgyd0c" path="res://Room/Floor/floor_tile_small_gltf.tscn" id="5_bpnmr"]
+[ext_resource type="PackedScene" uid="uid://4k0d2wbgkkhl" path="res://Room/Floor/floor_tile_small_weeds_a_gltf.tscn" id="6_jw84y"]
+[ext_resource type="PackedScene" uid="uid://boipljvbo0jj1" path="res://Room/Floor/floor_tile_small_weeds_b_gltf.tscn" id="7_f4byh"]
+[ext_resource type="PackedScene" uid="uid://cse108c2vu64p" path="res://Room/Floor/floor_wood_small_dark_gltf.tscn" id="8_eon6c"]
+[ext_resource type="PackedScene" uid="uid://8shprx2o32n4" path="res://Room/Floor/floor_wood_small_gltf.tscn" id="9_18oma"]
+
+[node name="Floors" type="Node3D"]
+
+[node name="floor_tile_small_broken_A_gltf" parent="." instance=ExtResource("1_rovf2")]
+visible = false
+
+[node name="floor_tile_small_broken_B_gltf" parent="." instance=ExtResource("2_bnid3")]
+visible = false
+
+[node name="floor_tile_small_corner_gltf" parent="." instance=ExtResource("3_d17yw")]
+visible = false
+
+[node name="floor_tile_small_decorated_gltf" parent="." instance=ExtResource("4_clwp6")]
+visible = false
+
+[node name="floor_tile_small_gltf" parent="." instance=ExtResource("5_bpnmr")]
+visible = false
+
+[node name="floor_tile_small_weeds_A_gltf" parent="." instance=ExtResource("6_jw84y")]
+visible = false
+
+[node name="floor_tile_small_weeds_B_gltf" parent="." instance=ExtResource("7_f4byh")]
+visible = false
+
+[node name="floor_wood_small_dark_gltf" parent="." instance=ExtResource("8_eon6c")]
+visible = false
+
+[node name="floor_wood_small_gltf" parent="." instance=ExtResource("9_18oma")]
+visible = false
